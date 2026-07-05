@@ -100,6 +100,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Curated apparel, audio, objects and workspace essentials. Premium shopping, delivered across Tunisia.",
       },
+      { name: "description", content: "MOXMALL is a premium multi-category marketplace curating apparel, audio, objects, and workspace essentials — delivered across Tunisia." },
+      { property: "og:description", content: "MOXMALL is a premium multi-category marketplace curating apparel, audio, objects, and workspace essentials — delivered across Tunisia." },
+      { name: "twitter:description", content: "MOXMALL is a premium multi-category marketplace curating apparel, audio, objects, and workspace essentials — delivered across Tunisia." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/243b23a8-edad-456b-a44e-b00f1eab4e0b/id-preview-d08e1bd0--6d453093-e1f2-4897-91d6-e3727e34ec5b.lovable.app-1783293435348.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/243b23a8-edad-456b-a44e-b00f1eab4e0b/id-preview-d08e1bd0--6d453093-e1f2-4897-91d6-e3727e34ec5b.lovable.app-1783293435348.png" },
     ],
     links: [
       {
