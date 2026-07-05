@@ -63,7 +63,7 @@ function NotFoundView() {
 }
 
 function ProductPage() {
-  const { product } = Route.useLoaderData();
+  const { product } = Route.useLoaderData() as { product: Product };
   const { add } = useCart();
   const [color, setColor] = useState(product.colors[0]);
   const [size, setSize] = useState(product.sizes?.[2] ?? undefined);
