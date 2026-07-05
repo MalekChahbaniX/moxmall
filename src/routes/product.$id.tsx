@@ -3,11 +3,11 @@ import { useState } from "react";
 import { ArrowRight, Heart, Minus, Plus, ShieldCheck, Truck, RotateCcw } from "lucide-react";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { ProductCard } from "@/components/site/ProductCard";
-import { PRODUCTS, formatTND, getProduct } from "@/lib/products";
+import { PRODUCTS, formatTND, getProduct, type Product } from "@/lib/products";
 import { useCart } from "@/lib/cart";
 
 export const Route = createFileRoute("/product/$id")({
-  loader: ({ params }) => {
+  loader: ({ params }): { product: Product } => {
     const p = getProduct(params.id);
     if (!p) throw notFound();
     return { product: p };
