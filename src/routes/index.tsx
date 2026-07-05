@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, ArrowUpRight, Sparkles, Truck, ShieldCheck, RotateCcw } from "lucide-react";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { ProductCard } from "@/components/site/ProductCard";
-import { PRODUCTS, CATEGORIES, BRANDS, formatTND } from "@/lib/products";
+import { PRODUCTS, BRANDS, formatTND } from "@/lib/products";
 import hero from "@/assets/hero.jpg";
 import catApparel from "@/assets/category-apparel.jpg";
 import catHome from "@/assets/category-home.jpg";
