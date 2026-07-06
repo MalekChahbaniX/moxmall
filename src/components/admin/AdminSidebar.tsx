@@ -13,12 +13,12 @@ import {
 
 const NAV = [
   { to: "/admin", label: "Overview", icon: LayoutDashboard, exact: true },
-  { to: "/admin/products", label: "Products", icon: Package },
-  { to: "/admin/orders", label: "Orders", icon: ShoppingBag },
-  { to: "/admin/customers", label: "Customers", icon: Users },
-  { to: "/admin/analytics", label: "Analytics", icon: BarChart3 },
-  { to: "/admin/marketing", label: "Marketing", icon: Megaphone },
-  { to: "/admin/settings", label: "Settings", icon: Settings },
+  { to: "/admin/products", label: "Products", icon: Package, exact: false },
+  { to: "/admin/orders", label: "Orders", icon: ShoppingBag, exact: false },
+  { to: "/admin/customers", label: "Customers", icon: Users, exact: false },
+  { to: "/admin/analytics", label: "Analytics", icon: BarChart3, exact: false },
+  { to: "/admin/marketing", label: "Marketing", icon: Megaphone, exact: false },
+  { to: "/admin/settings", label: "Settings", icon: Settings, exact: false },
 ] as const;
 
 export function AdminSidebar() {
