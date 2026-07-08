@@ -78,31 +78,31 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "MOXMALL — Everything You Love. One Place." },
+      { title: "MOXMALL — Luxury Timepieces. Curated." },
       {
         name: "description",
         content:
-          "MOXMALL is a premium multi-category marketplace curating apparel, audio, objects, and workspace essentials — delivered across Tunisia.",
+          "MOXMALL is a house of luxury Swiss timepieces — chronographs, GMTs, dive and dress watches from the most exacting maisons, curated and delivered across Tunisia.",
       },
       { name: "author", content: "MOXMALL" },
-      { name: "theme-color", content: "#111111" },
-      { property: "og:title", content: "MOXMALL — Everything You Love. One Place." },
+      { name: "theme-color", content: "#090909" },
+      { property: "og:title", content: "MOXMALL — Luxury Timepieces. Curated." },
       {
         property: "og:description",
         content:
-          "Curated apparel, audio, objects and workspace essentials. Premium shopping, delivered across Tunisia.",
+          "A house of luxury Swiss timepieces — chronographs, GMTs, dive and dress watches. Delivered across Tunisia.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "MOXMALL — Everything You Love. One Place." },
+      { name: "twitter:title", content: "MOXMALL — Luxury Timepieces. Curated." },
       {
         name: "twitter:description",
         content:
-          "Curated apparel, audio, objects and workspace essentials. Premium shopping, delivered across Tunisia.",
+          "A house of luxury Swiss timepieces — chronographs, GMTs, dive and dress watches. Delivered across Tunisia.",
       },
-      { name: "description", content: "MOXMALL is a premium multi-category marketplace curating apparel, audio, objects, and workspace essentials — delivered across Tunisia." },
-      { property: "og:description", content: "MOXMALL is a premium multi-category marketplace curating apparel, audio, objects, and workspace essentials — delivered across Tunisia." },
-      { name: "twitter:description", content: "MOXMALL is a premium multi-category marketplace curating apparel, audio, objects, and workspace essentials — delivered across Tunisia." },
+      { name: "description", content: "MOXMALL is a house of luxury Swiss timepieces — chronographs, GMTs, dive and dress watches. Delivered across Tunisia." },
+      { property: "og:description", content: "MOXMALL is a house of luxury Swiss timepieces — chronographs, GMTs, dive and dress watches. Delivered across Tunisia." },
+      { name: "twitter:description", content: "MOXMALL is a house of luxury Swiss timepieces — chronographs, GMTs, dive and dress watches. Delivered across Tunisia." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/243b23a8-edad-456b-a44e-b00f1eab4e0b/id-preview-d08e1bd0--6d453093-e1f2-4897-91d6-e3727e34ec5b.lovable.app-1783293435348.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/243b23a8-edad-456b-a44e-b00f1eab4e0b/id-preview-d08e1bd0--6d453093-e1f2-4897-91d6-e3727e34ec5b.lovable.app-1783293435348.png" },
     ],
@@ -116,7 +116,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&family=Manrope:wght@400;500;600&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=JetBrains+Mono:wght@400;500&display=swap",
       },
     ],
   }),
