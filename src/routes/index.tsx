@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, ArrowUpRight, Award, Truck, ShieldCheck, Gem } from "lucide-react";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { ProductCard } from "@/components/site/ProductCard";
-import { PRODUCTS, BRANDS, formatTND } from "@/lib/products";
+import { PRODUCTS, BRANDS } from "@/lib/products";
 import hero from "@/assets/hero.jpg";
 import catApparel from "@/assets/category-apparel.jpg";
 import catHome from "@/assets/category-home.jpg";
@@ -39,7 +39,7 @@ function Index() {
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden bg-canvas -mt-[73px] pt-[73px]">
+    <section className="relative overflow-hidden bg-canvas">
       {/* Ambient background image */}
       <div className="absolute inset-0">
         <img
