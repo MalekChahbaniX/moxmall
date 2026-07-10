@@ -214,8 +214,8 @@
 }
 @utility btn-gold:hover {
   background: var(--brand);
-  color: #0a0a0a;
-  box-shadow: 0 10px 30px -8px rgba(201, 162, 39, 0.45);
+  color: #f8ecd8;
+  box-shadow: 0 10px 30px -8px rgba(15, 95, 77, 0.4);
 }
 
 @utility btn-gold-solid {
@@ -227,7 +227,7 @@
   padding-inline: 1.75rem;
   border-radius: 9999px;
   background: var(--brand);
-  color: #0a0a0a;
+  color: #f8ecd8;
   border: 1px solid var(--brand);
   font-size: 12px;
   font-weight: 600;
@@ -238,17 +238,17 @@
 @utility btn-gold-solid:hover {
   background: var(--brand-hover);
   border-color: var(--brand-hover);
-  box-shadow: 0 10px 30px -8px rgba(240, 216, 120, 0.4);
+  box-shadow: 0 10px 30px -8px rgba(21, 128, 106, 0.4);
 }
 
 @utility glass-panel {
-  background: rgba(24, 24, 24, 0.55);
+  background: rgba(248, 236, 216, 0.55);
   backdrop-filter: blur(20px) saturate(160%);
   border: 1px solid var(--line);
 }
 
 @utility gold-text {
-  background: linear-gradient(120deg, #c9a227 0%, #f0d878 40%, #c9a227 80%);
+  background: linear-gradient(120deg, #0f5f4d 0%, #15806a 50%, #0f5f4d 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
