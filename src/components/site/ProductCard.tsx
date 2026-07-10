@@ -7,7 +7,7 @@ export function ProductCard({ product }: { product: Product }) {
   const { add } = useCart();
   return (
     <div className="group">
-      <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-[#0d0d0d] border border-white/5">
+      <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-[#0d0d0d] border border-white/5">
         <Link to="/product/$id" params={{ id: product.id }} className="block h-full">
           <img
             src={product.image}
