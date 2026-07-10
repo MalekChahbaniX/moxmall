@@ -68,18 +68,18 @@
 
 :root {
   --radius: 0.5rem;
-  /* MOXMALL — Luxury Watch palette (dark, gold-accented) */
-  --canvas: #090909;                     /* page background */
-  --surface: #111111;                    /* sections */
-  --elevated: #181818;                   /* cards */
-  --line: rgba(255, 255, 255, 0.08);
-  --line-strong: rgba(255, 255, 255, 0.16);
-  --ink: #ffffff;                        /* primary text */
-  --ink-muted: #a8a8a8;                  /* secondary text */
-  --ink-soft: #6b6b6b;                   /* tertiary */
-  --brand: #c9a227;                      /* refined gold */
-  --brand-soft: rgba(201, 162, 39, 0.14);
-  --brand-hover: #f0d878;
+  /* MOXMALL — Caramel Luxury palette (warm caramel canvas, emerald accent) */
+  --canvas: #2a1a0f;                     /* deep caramel page background */
+  --surface: #3a2416;                    /* sections */
+  --elevated: #482d1c;                   /* cards */
+  --line: rgba(255, 220, 180, 0.10);
+  --line-strong: rgba(255, 220, 180, 0.20);
+  --ink: #fdf5ea;                        /* warm ivory text */
+  --ink-muted: #c9b298;                  /* secondary text */
+  --ink-soft: #8a7660;                   /* tertiary */
+  --brand: #2f6f5e;                      /* refined emerald green */
+  --brand-soft: rgba(47, 111, 94, 0.18);
+  --brand-hover: #48a389;
 
   /* shadcn semantic mapping */
   --background: var(--canvas);
@@ -89,13 +89,13 @@
   --popover: var(--elevated);
   --popover-foreground: var(--ink);
   --primary: var(--brand);
-  --primary-foreground: #0a0a0a;
+  --primary-foreground: #fdf5ea;
   --secondary: var(--surface);
   --secondary-foreground: var(--ink);
   --muted: var(--surface);
   --muted-foreground: var(--ink-muted);
   --accent: var(--brand);
-  --accent-foreground: #0a0a0a;
+  --accent-foreground: #fdf5ea;
   --destructive: oklch(0.62 0.22 25);
   --destructive-foreground: #ffffff;
   --border: var(--line);
@@ -117,7 +117,7 @@
 
   --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.5), 0 12px 32px rgb(0 0 0 / 0.45);
   --shadow-lift: 0 20px 60px -10px rgb(0 0 0 / 0.75);
-  --shadow-gold: 0 10px 40px -12px rgba(201, 162, 39, 0.35);
+  --shadow-gold: 0 10px 40px -12px rgba(47, 111, 94, 0.4);
 
   color-scheme: dark;
 }
@@ -214,8 +214,8 @@
 }
 @utility btn-gold:hover {
   background: var(--brand);
-  color: #0a0a0a;
-  box-shadow: 0 10px 30px -8px rgba(201, 162, 39, 0.45);
+  color: #fdf5ea;
+  box-shadow: 0 10px 30px -8px rgba(47, 111, 94, 0.5);
 }
 
 @utility btn-gold-solid {
@@ -227,7 +227,7 @@
   padding-inline: 1.75rem;
   border-radius: 9999px;
   background: var(--brand);
-  color: #0a0a0a;
+  color: #fdf5ea;
   border: 1px solid var(--brand);
   font-size: 12px;
   font-weight: 600;
@@ -238,7 +238,7 @@
 @utility btn-gold-solid:hover {
   background: var(--brand-hover);
   border-color: var(--brand-hover);
-  box-shadow: 0 10px 30px -8px rgba(240, 216, 120, 0.4);
+  box-shadow: 0 10px 30px -8px rgba(72, 163, 137, 0.45);
 }
 
 @utility glass-panel {
@@ -248,7 +248,7 @@
 }
 
 @utility gold-text {
-  background: linear-gradient(120deg, #c9a227 0%, #f0d878 40%, #c9a227 80%);
+  background: linear-gradient(120deg, #2f6f5e 0%, #48a389 40%, #2f6f5e 80%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
