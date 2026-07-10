@@ -211,11 +211,12 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-@utility btn-gold:hover {
-  background: var(--brand);
-  color: #f8ecd8;
-  box-shadow: 0 10px 30px -8px rgba(15, 95, 77, 0.4);
+
+  &:hover {
+    background: var(--brand);
+    color: #f8ecd8;
+    box-shadow: 0 10px 30px -8px rgba(15, 95, 77, 0.4);
+  }
 }
 
 @utility btn-gold-solid {
@@ -234,11 +235,12 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-@utility btn-gold-solid:hover {
-  background: var(--brand-hover);
-  border-color: var(--brand-hover);
-  box-shadow: 0 10px 30px -8px rgba(21, 128, 106, 0.4);
+
+  &:hover {
+    background: var(--brand-hover);
+    border-color: var(--brand-hover);
+    box-shadow: 0 10px 30px -8px rgba(21, 128, 106, 0.4);
+  }
 }
 
 @utility glass-panel {
