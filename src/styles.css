@@ -89,13 +89,13 @@
   --popover: var(--elevated);
   --popover-foreground: var(--ink);
   --primary: var(--brand);
-  --primary-foreground: #0a0a0a;
+  --primary-foreground: #f8ecd8;
   --secondary: var(--surface);
   --secondary-foreground: var(--ink);
   --muted: var(--surface);
   --muted-foreground: var(--ink-muted);
   --accent: var(--brand);
-  --accent-foreground: #0a0a0a;
+  --accent-foreground: #f8ecd8;
   --destructive: oklch(0.62 0.22 25);
   --destructive-foreground: #ffffff;
   --border: var(--line);
@@ -119,7 +119,7 @@
   --shadow-lift: 0 20px 60px -10px rgb(0 0 0 / 0.75);
   --shadow-gold: 0 10px 40px -12px rgba(201, 162, 39, 0.35);
 
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 .dark {
