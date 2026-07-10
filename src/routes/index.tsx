@@ -160,7 +160,7 @@ function FeaturedCategories() {
           <Link
             key={c.name}
             to="/shop"
-            className={`relative overflow-hidden rounded-sm border border-white/5 group ${c.span} min-h-[280px]`}
+            className={`relative overflow-hidden rounded-3xl border border-white/5 group ${c.span} min-h-[280px]`}
           >
             <img
               src={c.img}
@@ -227,7 +227,7 @@ function FlashDeal() {
   const pad = (n: number) => n.toString().padStart(2, "0");
   return (
     <section className="mox-container py-6">
-      <div className="relative overflow-hidden rounded-sm border border-brand/20 bg-gradient-to-br from-[#0f0f0f] via-black to-[#0a0a0a] text-white p-10 md:p-16">
+      <div className="relative overflow-hidden rounded-3xl border border-brand/20 bg-gradient-to-br from-[#0f0f0f] via-black to-[#0a0a0a] text-white p-10 md:p-16">
         <div className="absolute -right-24 -top-24 size-[500px] rounded-full bg-brand/15 blur-[100px]" />
         <div className="absolute -left-24 -bottom-24 size-96 rounded-full bg-brand/10 blur-[80px]" />
         <div className="relative grid md:grid-cols-[1.2fr_1fr] gap-10 items-center">
@@ -259,7 +259,7 @@ function FlashDeal() {
             ].map((c) => (
               <div
                 key={c.l}
-                className="rounded-sm bg-white/5 border border-white/10 py-8 text-center backdrop-blur"
+                className="rounded-2xl bg-white/5 border border-white/10 py-8 text-center backdrop-blur"
               >
                 <p className="font-display text-4xl md:text-6xl font-light tracking-tight tabular-nums gold-text">
                   {c.v}
@@ -326,7 +326,7 @@ function Reviews() {
         {reviews.map((r, i) => (
           <figure
             key={i}
-            className="rounded-sm border border-white/5 bg-[#0d0d0d] p-10 flex flex-col justify-between min-h-[280px] hover:border-brand/30 transition-colors duration-500"
+            className="rounded-3xl border border-white/5 bg-[#0d0d0d] p-10 flex flex-col justify-between min-h-[280px] hover:border-brand/30 transition-colors duration-500"
           >
             <div>
               <div className="flex gap-1 text-brand text-lg">
@@ -365,7 +365,7 @@ function Stats() {
   ];
   return (
     <section className="mox-container pb-24">
-      <div className="rounded-sm bg-[#0d0d0d] border border-white/5 p-12 md:p-16">
+      <div className="rounded-3xl bg-[#0d0d0d] border border-white/5 p-12 md:p-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((s) => (
             <div key={s.l}>
