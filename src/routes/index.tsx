@@ -160,7 +160,7 @@ function FeaturedCategories() {
           <Link
             key={c.name}
             to="/shop"
-            className={`relative overflow-hidden rounded-3xl border border-white/5 group ${c.span} min-h-[280px]`}
+            className={`relative overflow-hidden rounded-3xl border border-white/5 group ${c.span} min-h-[280px] shadow-[0_4px_20px_-8px_rgba(0,0,0,0.25)] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 hover:shadow-[0_30px_70px_-20px_rgba(15,95,77,0.4)] hover:border-brand/30`}
           >
             <img
               src={c.img}
@@ -227,7 +227,7 @@ function FlashDeal() {
   const pad = (n: number) => n.toString().padStart(2, "0");
   return (
     <section className="mox-container py-6">
-      <div className="relative overflow-hidden rounded-3xl border border-brand/20 bg-gradient-to-br from-[#0f0f0f] via-black to-[#0a0a0a] text-white p-10 md:p-16">
+      <div className="group relative overflow-hidden rounded-3xl border border-brand/20 bg-gradient-to-br from-[#0f0f0f] via-black to-[#0a0a0a] text-white p-10 md:p-16 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.4)] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 hover:shadow-[0_40px_80px_-20px_rgba(15,95,77,0.45)] hover:border-brand/40">
         <div className="absolute -right-24 -top-24 size-[500px] rounded-full bg-brand/15 blur-[100px]" />
         <div className="absolute -left-24 -bottom-24 size-96 rounded-full bg-brand/10 blur-[80px]" />
         <div className="relative grid md:grid-cols-[1.2fr_1fr] gap-10 items-center">
