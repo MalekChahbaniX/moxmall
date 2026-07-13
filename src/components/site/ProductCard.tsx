@@ -7,7 +7,7 @@ export function ProductCard({ product }: { product: Product }) {
   const { add } = useCart();
   return (
     <div className="group">
-      <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-[#0d0d0d] border border-white/5">
+      <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-[#0d0d0d] border border-white/5 shadow-[0_4px_20px_-8px_rgba(0,0,0,0.25)] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:-translate-y-1 group-hover:shadow-[0_30px_60px_-20px_rgba(15,95,77,0.35)] group-hover:border-brand/30">
         <Link to="/product/$id" params={{ id: product.id }} className="block h-full">
           <img
             src={product.image}
